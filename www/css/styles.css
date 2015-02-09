@@ -1,3 +1,159 @@
-﻿#main {
-
+﻿@font-face {
+    font-family: 'helveticalight';
+    src: url('../fonts/HelveticaNeueCyr-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helveticabold';
+    src: url('../fonts/HelveticaNeueCyr-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helveticalightitalic';
+    src: url('../fonts/HelveticaNeueCyr-LightItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	font-family: 'helveticalight';
+}
+#main {
+	background-color: #FFFFFF;
+}
+a, a:hover, a:active, a:visited {
+	color: black;
+	text-decoration: none;
+}
+ul li {
+	display: inline;
+	border-right: 1px solid #9B9B9B;
+	border-collapse: collapse;
+}
+ul li:last-child {
+	border-right: none;
+}
+.header {
+	height: 175px;
+	background-color: #C4C4C4;
+}
+	.header-nav ul {
+		padding: 6px 0;
+		font-size: 0;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.header-nav ul li {
+		font-size: 14px;
+	}
+	.header-nav a {
+		display: inline-block;
+		padding: 10px 20px;
+		border: 1px solid transparent;
+		margin-left: -1px;
+		margin-right: -1px;
+	}
+	.header-nav a:hover {
+		border: 1px solid #646464;
+		background-color: #9B9B9B;
+	}
+	.info {
+		width: 728px;
+		height: 33px;
+		border-bottom: 1px solid #FFFFFF;
+		float: right;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	.tel {
+		display: inline-block;
+		height: 32px;
+		font-size: 30px;
+		padding-left: 40px;
+		float: left;
+		background: url('../images/trubka.png') no-repeat 0 0;
+		font-family: 'helveticabold';
+	}
+		.tel .white-text {
+			color: #FFFFFF;
+			font-family: 'helveticalight';
+		}
+	.time {
+		display: inline-block;
+		height: 32px;
+		padding-left: 40px;
+		float: right;
+		background: url('../images/clock.png') no-repeat 0 0;
+	}
+	.time span {
+		display: block;
+	}
+	.header input {
+		width: 398px;
+		height: 30px;
+		margin-left: 292px;
+		margin-top: 10px;
+		padding: 0 5px;
+		background: url('../images/lupa.png') no-repeat 380px 7px;
+		background-color: #EFEFEF;
+		border-radius: 3px;
+		color: #C4C4C4;
+		font-family: 'helveticalightitalic';
+	}
+	.goods {
+		float: right;
+		padding-top: 10px;
+		background: url('../images/korzina.png') no-repeat 0 5px;
+	}
+	.goods a {
+		text-decoration: underline;
+	}
+	.korzina {
+		display: inline-block;
+		height: 32px;
+		margin-right: 10px;
+		padding-left: 45px;
+		
+	}
+	.pcs {
+		display: inline-block;
+		color: #E93F40;
+		width: 26px;
+		height: 22px;
+		border-radius: 13px;
+		background-color: #EFEFEF;
+		text-align: center;
+		padding-top: 4px;
+		margin-right: 10px;
+	}
+.main-menu {
+	height: 50px;
+	background-color: #E93F40;
+}
+.slider {
+	height: 450px;
+	background-color: #EEEEEE;
+}
+.content {
+	min-height: 500px;
+}
+.bottom-menu {
+	height: 50px;
+	background-color: #4B4B4B;
+}
+.socials {
+	height: 148px;
+}
+.footer {
+	height: 100px;
+	background-color: #1C1C1C;
+}
+.inner {
+	width: 1020px;
+	margin: 0 auto;
+}
+.clear {
+	width: 100%;
+	height: 0;
+	clear: both;
 }

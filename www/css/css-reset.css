@@ -79,4 +79,5 @@ hr {
 input, select {
     vertical-align:middle;
 	box-shadow: none;
+	border: none;
 }
