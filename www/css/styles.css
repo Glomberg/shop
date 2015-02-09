@@ -26,25 +26,29 @@ a, a:hover, a:active, a:visited {
 	color: black;
 	text-decoration: none;
 }
+ul {
+	font-size: 0;
+}
 ul li {
 	display: inline;
-	border-right: 1px solid #9B9B9B;
-	border-collapse: collapse;
+	font-size: 14px;
 }
-ul li:last-child {
-	border-right: none;
-}
+/*------------------------------*/
+/*          HEADER
+/*------------------------------*/
 .header {
 	height: 175px;
 	background-color: #C4C4C4;
 }
 	.header-nav ul {
 		padding: 6px 0;
-		font-size: 0;
 		border-bottom: 1px solid #FFFFFF;
 	}
 	.header-nav ul li {
-		font-size: 14px;
+		border-right: 1px solid #9B9B9B;
+	}
+	.header-nav ul li:last-child {
+		border-right: none;
 	}
 	.header-nav a {
 		display: inline-block;
@@ -126,10 +130,22 @@ ul li:last-child {
 		padding-top: 4px;
 		margin-right: 10px;
 	}
+/*------------------------------*/
+/*          MENU
+/*------------------------------*/
 .main-menu {
 	height: 50px;
 	background-color: #E93F40;
 }
+	.main-menu li {
+		display: inline-block;
+		width: 204px;
+		text-align: center;
+	}
+	.main-menu a {
+		display: block;
+		padding: 18px 0;
+	}
 .slider {
 	height: 450px;
 	background-color: #EEEEEE;
