@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Shop</title>
+<link rel="stylesheet" type="text/css" href="css/css-reset.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script src="jquery-1.11.2.min.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+<div id="main">
+<!--for HEADER.PHP start-->
+	<section class="header">
+		<header class="inner">
+			<nav class="header-nav">
+				<ul>
+					<li><a href="">О магазине</a></li>
+					<li><a href="">Доставка</a></li>
+					<li><a href="">Оплата</a></li>
+					<li><a href="">Гарантия</a></li>
+					<li><a href="">Доставка</a></li>
+				</ul>
+			</nav>
+			<div class="info">
+				<div class="tel"><span class="white-text">(495) </span>727-00-01</div>
+				<div class="time">
+					<span class="top">Пн-Пт: 10:00 до 20:00</span>
+					<span class="bottom">Сб: 11:00 до 16:00</span>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="goods">
+				<span class="korzina"><a href="">В вашей корзине</a></span>
+				<span class="pcs">5</span><a href="">товаров</a>
+			</div>
+			<input type="text" value="Поиск здесь (напишите название товара или код)"></input>
+		</header>
+	</section>
+	<section class="main-menu">
+		<nav class="inner">
+			<ul>
+				<li>
+					<a href="">Компьютерная техника</a>
+					<ul>
+						<li><a href="">Планшеты</a></li>
+						<li><a href="">Ноутбуки</a></li>
+						<li><a href="">Системные блоки</a></li>
+						<li><a href="">Мониторы</a></li>
+						<li><a href="">Офисная техника</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Бытовая техника</a>
+					<ul>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Apple</a>
+					<ul>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Видео и аудио</a>
+					<ul>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Комплектующие</a>
+					<ul>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</section>
+<!--for HEADER.PHP stop-->
+<!--for #WORK_AREA start-->
+	<section class="content">
+		<div class="inner">
+		<div class="basket-top">
+			<h1>Корзина</h1>
+			<form action="">
+				<div class="chastnoe active">Частное лицо</div>
+				<div class="yuridicheskoe">Юридическое лицо</div>
+				<span class="about">Контактные данные</span>
+				<label for="name">Имя</label>
+				<input type="text" id="name" />
+				<label for="fam">Фамилия</label>
+				<input type="text" id="fam" />
+				<label for="email">Email</label>
+				<input type="text" id="email" />
+				<label for="adress">Адрес</label>
+				<input type="text" id="adress" />
+			</form>
+			<div class="zakaz">
+				<div class="zakaz-top">
+					<div>Ваш заказ</div>
+					<img src="images/samsung.jpg" />
+					<span class="zakaz-name">Смартфон Samsung Galaxy S3 SS GT-I9301I Onyx Black</span>
+					<span class="zakaz-price">12990 Р</span>
+				</div>
+				<div class="zakaz-bottom">
+					<dl>
+						<dt>Всего товаров:</dt><dd>1 товар</dd>
+						<dt>Стоимость доставки:</dt><dd>350 р.</dd>
+						<dt>Общая стоимость с доставкой:</dt><dd>13340 р.</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="basket-left">
+			<span class="sposob">Способы доставки</span>
+			<a href="">Информация о доставке</a>
+			<span class="check">Самовывоз</span>
+			<span class="check">Доставка на дом</span>
+			<div class="zaglushka"></div>
+			<span class="sposob">Способы оплаты</span>
+			<a href="">Информация об оплате</a>
+			<span class="check">Наличными</span>
+			<div class="zaglushka"></div>
+			<input type="button" value="Оформить заказ"/>
+		</div>
+		<div class="basket-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2241.0981889327763!2d49.123298!3d55.826254999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415ead5645717cf3%3A0xbd1f897088470a05!2z0L_RgC4g0KXRg9GB0LDQuNC90LAg0K_QvNCw0YjQtdCy0LAsINCa0LDQt9Cw0L3RjCwg0KDQtdGB0L8uINCi0LDRgtCw0YDRgdGC0LDQvQ!5e0!3m2!1sru!2sru!4v1423604496300" width="400" height="300" frameborder="0" style="border:0"></iframe>
+			<div class="basket-info">
+				<span class="city">Казань пр-т Ямашева</span>
+				<p>Молл "Парк Хаус", пр-т Х.Ямашева, д. 46/33</p>
+				<span class="worktime clock2">Пн-Вс 10:00-22:00</span>
+				<span class="worktime">+7 (843) 2-100-440</span>
+			</div>
+		</div>
+		<div class="clear"></div>
+		</div>
+	</section>
+<!--for #WORK_AREA stop-->
+<!--for FOOTER.PHP start-->
+	<section class="bottom-menu">
+		<nav class="inner bottom-nav">
+			<ul>
+				<li><a href="">О магазине</a></li>
+				<li><a href="">Доставка</a></li>
+				<li><a href="">Оплата</a></li>
+				<li><a href="">Гарантия</a></li>
+				<li><a href="">Контакты</a></li>
+			</ul>
+		</nav>
+	</section>
+	<section class="socials">
+		<div class="inner">
+			<h2>Присоединяйтесь!</h2>
+			<a href="" class="social gp"></a>
+			<a href="" class="social vk"></a>
+			<a href="" class="social fb"></a>
+		</div>
+	</section>
+	<section class="footer">
+		<footer class="inner">
+			<div class="adress">
+				&copy 2015 re:Shop.<br />
+				Электронная почта: <a href="mailto:internetshop@name.ru">internetshop@name.ru</a><br />
+				Корпоративный отдел: <a href="mailto:b2b@name.ru">b2b@name.ru</a><br />
+			</div>
+			<div class="metrica"></div>
+			<div class="metrica"></div>
+		</footer>
+	</section>
+<!--for FOOTER.PHP stop-->
+</div> <!--END #MAIN-->
+</div>
+</body>
+</html>
