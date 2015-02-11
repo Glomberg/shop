@@ -1,3 +1,26 @@
 ﻿$(document).ready(function(){
-	
+	$("#a-obzor").click(function(){
+		$("#a-obzor").addClass("active");
+		$("#a-haract").removeClass("active");
+		$("#a-video").removeClass("active");
+		$("#obzor").css("display","block");
+		$("#haract").css("display","none");
+		$("#video").css("display","none");
+	});
+	$("#a-haract").click(function(){
+		$("#a-obzor").removeClass("active");
+		$("#a-haract").addClass("active");
+		$("#a-video").removeClass("active");
+		$("#obzor").css("display","none");
+		$("#haract").css("display","block");
+		$("#video").css("display","none");
+	});
+	$("#a-video").click(function(){
+		$("#a-obzor").removeClass("active");
+		$("#a-haract").removeClass("active");
+		$("#a-video").addClass("active");
+		$("#obzor").css("display","none");
+		$("#haract").css("display","none");
+		$("#video").css("display","block");
+	});
 });
