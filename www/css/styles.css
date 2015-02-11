@@ -854,6 +854,11 @@ h2.align-left {
 		font-size: 12px;
 		background: url('../images/check.gif') no-repeat 0 0;
 	}
+	.basket-left .person {
+		margin-bottom: 10px;
+		color: #B6B6B6;
+		font-size: 10px;
+	}
 	.sposob {
 		font-family: 'helveticamedium';
 		font-size: 20px;
