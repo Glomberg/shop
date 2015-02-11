@@ -776,7 +776,7 @@ h2.align-left {
 		display: inline-block;
 		width: 530px;
 		height: 290px;
-		border: 1px solid #E8E8E8;
+		border: 1px solid #FFDF48;
 		vertical-align: top;
 	}
 		.zakaz-top {
@@ -837,6 +837,7 @@ h2.align-left {
 	}
 .basket-left {
 	padding-top: 35px;
+	padding-left: 10px;
 	width: 350px;
 	float: left;
 }
