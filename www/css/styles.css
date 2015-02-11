@@ -28,6 +28,13 @@
     font-weight: normal;
     font-style: normal;
 }
+/*------------------------------- */
+/* Блочность HTML5 элементов для IE
+/*--------------------------------*/
+header, nav, section, article, aside, footer {
+   display:block;
+}
+
 body {
 	font-family: 'helveticalight';
 }
@@ -114,6 +121,8 @@ ul li {
 		padding: 0 5px;
 		background: url('../images/lupa.png') no-repeat 380px 7px;
 		background-color: #EFEFEF;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
 		border-radius: 3px;
 		color: #C4C4C4;
 		font-family: 'helveticalightitalic';
@@ -139,6 +148,8 @@ ul li {
 		color: #E93F40;
 		width: 26px;
 		height: 22px;
+		-moz-border-radius: 13px;
+		-webkit-border-radius: 13px;
 		border-radius: 13px;
 		background-color: #EFEFEF;
 		text-align: center;
@@ -245,6 +256,8 @@ ul li {
 }
  a.vkorzinu{
 	padding: 7px 25px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	background-color: #E83E3F;
 	font-family: 'helveticamedium';
@@ -357,6 +370,8 @@ ul li {
 		.tovar:hover {
 			height: 320px;
 			border-color: #FFDF48;
+			-moz-box-shadow: 0 0 1px 1px #FFDF48;
+			-webkit-box-shadow: 0 0 1px 1px #FFDF48;
 			box-shadow: 0 0 1px 1px #FFDF48;
 			z-index: 3000000000;
 		}
@@ -530,6 +545,8 @@ h2.align-left {
 	.obz-pokupka a {
 		display: block;
 		padding: 15px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
 		border-radius: 3px;
 		font-size: 12px;
 		text-align: center;
@@ -852,6 +869,8 @@ h2.align-left {
 	.basket-left input, .basket-left>.oformit{
 		width:200px;
 		height: 40px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
 		border-radius: 3px;
 		background-color: #E93F40;
 		color: #FFFFFF;
@@ -914,6 +933,8 @@ h2.align-left {
 	width: 238px;
 	margin-right: 10px;
 	border: 1px solid #E6E6E6;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	vertical-align: bottom;
 	margin-bottom: 30px;
@@ -931,6 +952,8 @@ h2.align-left {
 			margin-bottom: 15px;
 			width: 95px;
 			border: 1px solid #E7E7E7;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
 			border-radius: 3px;
 			background-color: #FAFAFA;
 		}
@@ -1042,6 +1065,8 @@ h2.align-left {
 		top: 15px;
 		width: 20px;
 		height: 20px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
 		border-radius: 10px;
 		background-color: #5E5E5E;
 		text-align: center;
