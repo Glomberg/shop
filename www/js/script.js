@@ -23,4 +23,22 @@
 		$("#haract").css("display","none");
 		$("#video").css("display","block");
 	});
+	$(".informatsiya-p").click(function(){
+		$("#fixed-modal").css("display","block");
+	});
+	$(".informatsiya-d").click(function(){
+		$("#fixed-modal2").css("display","block");
+	});
+	$(".close").click(function(){
+		$("#fixed-modal").css("display","none");
+		$("#fixed-modal2").css("display","none");
+	});
+	$(".chastnoe").click(function(){
+		$("#yuridicheskoe").removeClass("active");
+		$("#chastnoe").addClass("active");
+	});
+	$(".yuridicheskoe").click(function(){
+		$("#chastnoe").removeClass("active");
+		$("#yuridicheskoe").addClass("active");
+	});
 });
