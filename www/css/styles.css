@@ -101,6 +101,7 @@ ul li {
 		padding-left: 40px;
 		float: right;
 		background: url('../images/clock.png') no-repeat 0 0;
+		padding-right: 10px;
 	}
 	.time span {
 		display: block;
@@ -121,6 +122,7 @@ ul li {
 		float: right;
 		padding-top: 10px;
 		background: url('../images/korzina.png') no-repeat 0 5px;
+		padding-right: 10px;
 	}
 	.goods a {
 		text-decoration: underline;
@@ -841,13 +843,13 @@ h2.align-left {
 		color: #2B2B2B;
 		padding-left: 0;
 	}
-	.basket-left a {
+	.basket-left a.informatsiya {
 		color: #019FCE;
 		text-decoration: underline;
 		margin-bottom: 20px;
 		font-size: 12px;
 	}
-	.basket-left input {
+	.basket-left input, .basket-left>.oformit{
 		width:200px;
 		height: 40px;
 		border-radius: 3px;
@@ -856,6 +858,8 @@ h2.align-left {
 		font-family: 'helveticamedium';
 		margin-bottom: 60px;
 		cursor: pointer;
+		line-height: 40px;
+		text-align: center;
 	}
 .basket-map {
 	float: right;
