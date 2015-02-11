@@ -889,3 +889,157 @@ h2.align-left {
 	.clock2 {
 		background: url('../images/clock2.png') no-repeat 0 0;
 	}
+/*------------------------------*/
+/*       for SRAVNENIE.HTML
+/*------------------------------*/
+.srav {
+	display: block;
+	padding-left: 20px;
+	font-family: 'helveticamedium';
+	margin-bottom: 30px;
+}
+	.srav.h1 {
+		font-size: 18px;
+		padding-top: 30px;
+	}
+	.srav.h2 {
+		font-size: 14px;
+	}
+.sravnenie-top {
+	display: inline-block;
+	width: 238px;
+	margin-right: 10px;
+	border: 1px solid #E6E6E6;
+	border-radius: 5px;
+	vertical-align: bottom;
+	margin-bottom: 30px;
+}
+	.config {
+		background-color: #FAFAFA;
+		height: 165px;
+	}
+		.config h3 {
+			padding: 15px 0 10px 10px;
+		}
+		.config select {
+			display: block;
+			margin-left: 10px;
+			margin-bottom: 15px;
+			width: 95px;
+			border: 1px solid #E7E7E7;
+			border-radius: 3px;
+			background-color: #FAFAFA;
+		}
+		.config a {
+			display: block;
+			margin-left: 10px;
+			margin-bottom: 15px;
+			padding-left: 18px;
+			text-decoration: underline;
+			background: url('../images/krestik.png') no-repeat 0 0;
+			font-size: 12px;
+		}
+		.config input {
+			margin-left: 10px;
+		}
+		.config label {
+			display: inline-block;
+			width: 200px;
+			font-size: 12px;
+			line-height: 14px;
+			margin-bottom: 8px;
+		}
+	.item {
+		height: 265px;
+	}
+		.item img {
+			display: block;
+			margin: 30px auto;
+			width: 95px;
+		}
+		.item-about {
+			display: block;
+			padding: 0 10px;
+			font-size: 12px;
+			margin-bottom: 10px;
+		}
+		.item-price {
+			display: block;
+			padding-left: 15px;
+			font-size: 18px;
+			font-family: 'helveticaroman';
+			margin-bottom: 10px;
+		}
+		.item>.vkorzinu {
+			display: block;
+			width: 120px;
+			padding: 0;
+			text-align: center;
+			line-height: 27px;
+			font-family: 'helveticamedium';
+			margin-left: 10px;
+			margin-bottom: 10px;
+			height: 27px;
+		}
+		.item>.delete {
+			display: block;
+			padding: 0 15px;
+			font-size: 12px;
+			margin-left: 10px;
+			text-decoration: underline;
+			color: #7A7A7A;
+			background: url('../images/krestik.png') no-repeat 0 0;
+		}
+.content table {
+	margin-bottom: 30px;
+	color: #222222;
+	font-size: 12px;
+}
+	.content table tr {
+		height: 30px;
+		line-height: 30px;
+	}
+		.content table tr:nth-child(odd) {
+			background-color: #F4F4F4;
+		}
+	.content table td {
+		width: 255px;
+		padding-left: 20px;
+	}
+.begunok {
+	height: 50px;
+	background-color: #333333;
+	text-align: right;
+}
+	.begunok-item {
+		display: inline-block;
+		width: 140px;
+		height: 50px;
+		border-left: 1px solid #474747;
+		position: relative;
+		font-size: 10px;
+		color: #BFBFBF;
+		text-align: left;
+	}
+	.begunok-item span {
+		display: inline-block;
+		padding-left: 35px;
+		line-height: 50px;
+	}
+		.sravneniya span {
+			background: url('../images/papers.gif')no-repeat 12px 17px;
+		}
+		.izbrannoe span{
+			background: url('../images/flazhok.gif')no-repeat 12px 17px;
+		}
+	.begunok-item>div {
+		position: absolute;
+		right: 15px;
+		top: 15px;
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
+		background-color: #5E5E5E;
+		text-align: center;
+		line-height: 20px;
+	}
