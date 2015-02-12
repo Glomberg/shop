@@ -892,12 +892,18 @@ h2.align-left {
 		margin-bottom: 10px;
 		color: #7E7E7E;
 		font-size: 12px;
+		padding-left: 15px; /*test*/
+		background: url('../images/check.gif') no-repeat 0 1px; /*test*/
 	}
-	.basket-left>input {
+	.basket-left>input[type=radio] {
 		float: left;
 		height: 20px;
 		margin-bottom: 10px;
+		display: none; /*test*/
 	}
+		.basket-left>input[type=radio]:checked + label {
+			background: url('../images/checked.gif') no-repeat 0 1px; /*test*/
+		}
 .zaglushka {
 	height: 70px;
 }
