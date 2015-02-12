@@ -36,9 +36,11 @@
 	$(".chastnoe").click(function(){
 		$("#yuridicheskoe").removeClass("active");
 		$("#chastnoe").addClass("active");
+		$(".hidden").css("display","none");
 	});
 	$(".yuridicheskoe").click(function(){
 		$("#chastnoe").removeClass("active");
 		$("#yuridicheskoe").addClass("active");
+		$(".hidden").css("display","block");
 	});
 });

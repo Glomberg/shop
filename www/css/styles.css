@@ -882,7 +882,7 @@ h2.align-left {
 .basket-left {
 	padding-top: 35px;
 	padding-left: 10px;
-	width: 350px;
+	width: 400px;
 	float: left;
 }
 	.basket-left>label {
@@ -892,6 +892,7 @@ h2.align-left {
 	}
 	.basket-left>input {
 		float: left;
+		height: 20px;
 		margin-bottom: 10px;
 	}
 .zaglushka {
@@ -939,6 +940,9 @@ h2.align-left {
 		line-height: 40px;
 		text-align: center;
 	}
+		.basket-left>.hidden {
+			display: none;
+		}
 .basket-map {
 	float: right;
 	padding: 35px;
