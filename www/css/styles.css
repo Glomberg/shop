@@ -299,6 +299,8 @@ ul li {
 	
 }
  a.vkorzinu{
+	display: inline-block;
+	margin-bottom: 20px;
 	padding: 7px 25px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
@@ -306,6 +308,9 @@ ul li {
 	background-color: #E83E3F;
 	font-family: 'helveticamedium';
 	color: #FFFFFF;
+}
+.tovar a {
+	display: inline-block;
 }
 	.content .left-column {
 		width: 235px;
@@ -411,6 +416,13 @@ ul li {
 			overflow: hidden;
 			text-overflow: clip;
 		}
+		.tovar a h3 {
+			display: block;
+			height: 14px;
+			font-size: 14px;
+			overflow: hidden;
+			text-overflow: clip;
+		}
 		.tovar:hover {
 			height: 320px;
 			border-color: #FFDF48;
@@ -428,18 +440,34 @@ ul li {
 				margin-bottom: 10px;
 				font-family: 'helveticaroman';
 			}
-			.tovar a {
-				display: inline-block;
-				margin-bottom: 20px;
-			}
+				.tovar span.index-price {
+					font-size: 18px;
+					height: 36px;
+					font-family: 'helveticamedium';
+				}
 			.tovar .check {
 				display: block;
 				cursor: pointer;
 				text-align: left;
+				font-size: 12px;
 				padding-left: 40px;
 				margin-bottom: 12px;
 				background: url('../images/check.gif') no-repeat 22px 1px;
 			}
+			.tovar>input[type=checkbox] {
+				position: absolute;
+				display: none;
+			}
+				.tovar>input[type=checkbox]:checked + label {
+					background: url("../images/checked2.gif") no-repeat 22px 1px;
+				}
+				.tovar .check.no {
+					background: transparent;
+					font-size: 14px;
+				}
+				.tovar .check.yes {
+					background: url('../images/ok.png') no-repeat 22px 0;
+				}
 			.tovar .guarantee {
 				display: block;
 				font-family: 'helveticalight';
@@ -602,15 +630,15 @@ h2.align-left {
 	}
 	.obz-pokupka a.add {
 		background-color: #E83E3F;
-		color: #FFFFFF;
+		/*color: #FFFFFF;*/
 	}
 	.obz-pokupka a.sravnit {
-		background-color: #F4F4F4;
-		color: #1E1E1E;
+		background-color: #C4C4C4;
+		/*color: #1E1E1E;*/
 	}
 	.obz-pokupka a.one-click  {
 		background-color: #FFE87B;
-		color: #FFFFFF;
+		/*color: #FFFFFF; ПРОБУЕМ ЧЕРНЫЙ ШРИФТ*/
 		margin-bottom: 30px;
 	}
 	.obz-pokupka>span {
@@ -772,7 +800,7 @@ h2.align-left {
 		display: inline-block;
 		margin-right: 10px;
 		width: 470px;
-		height: 290px;
+		height: 310px;
 		border: 1px solid #E8E8E8;
 	}
 		form>div {
@@ -808,9 +836,9 @@ h2.align-left {
 		}
 		form label {
 			text-align: left;
-			padding-left: 40px; 
+			padding-left: 30px; 
 			height: 22px;
-			width: 77px;
+			width: 110px;
 			color: #949393;
 		}
 		form input {
@@ -822,7 +850,7 @@ h2.align-left {
 	.basket-top .zakaz {
 		display: inline-block;
 		width: 530px;
-		height: 290px;
+		height: 310px;
 		border: 1px solid #FFDF48;
 		vertical-align: top;
 	}
@@ -885,13 +913,13 @@ h2.align-left {
 .basket-left {
 	padding-top: 35px;
 	padding-left: 10px;
-	width: 400px;
+	width: 450px;
 	float: left;
 }
 	.basket-left>label {
 		margin-bottom: 10px;
 		color: #7E7E7E;
-		font-size: 12px;
+		font-size: 14px;
 		cursor: pointer;
 		padding-left: 15px; /*test*/
 		background: url('../images/check.gif') no-repeat 0 1px; /*test*/
@@ -918,10 +946,10 @@ h2.align-left {
 		font-size: 12px;
 		background: url('../images/check.gif') no-repeat 0 0;
 	}
-	.basket-left .person {
+	.person {
 		margin-bottom: 10px;
 		color: #B6B6B6;
-		font-size: 10px;
+		font-size: 12px;
 	}
 	.sposob {
 		font-family: 'helveticamedium';
@@ -945,7 +973,7 @@ h2.align-left {
 		background-color: #E93F40;
 		color: #FFFFFF;
 		font-family: 'helveticamedium';
-		margin-bottom: 60px;
+		margin-bottom: 20px;
 		cursor: pointer;
 		line-height: 40px;
 		text-align: center;
@@ -956,7 +984,7 @@ h2.align-left {
 .basket-map {
 	float: right;
 	padding: 35px;
-	width: 500px;
+	width: 450px;
 }
 .basket-map iframe {
 	margin-bottom: 30px;
