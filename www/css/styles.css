@@ -448,6 +448,9 @@ ul li {
 				width: 140px;
 				border-top: 1px solid #E1E1E1;
 			}
+			.invisible {
+				visibility: hidden;
+			}
 /*------------------------------*/
 /*        BOTTOM MENU
 /*------------------------------*/
@@ -598,15 +601,15 @@ h2.align-left {
 		margin-bottom: 13px;
 	}
 	.obz-pokupka a.add {
-		background-color: #FF7F50;
+		background-color: #E83E3F;
 		color: #FFFFFF;
 	}
 	.obz-pokupka a.sravnit {
-		background-color: #858585;
+		background-color: #F4F4F4;
 		color: #1E1E1E;
 	}
 	.obz-pokupka a.one-click  {
-		background-color: #FFED00;
+		background-color: #FFE87B;
 		color: #FFFFFF;
 		margin-bottom: 30px;
 	}
