@@ -892,6 +892,7 @@ h2.align-left {
 		margin-bottom: 10px;
 		color: #7E7E7E;
 		font-size: 12px;
+		cursor: pointer;
 		padding-left: 15px; /*test*/
 		background: url('../images/check.gif') no-repeat 0 1px; /*test*/
 	}
