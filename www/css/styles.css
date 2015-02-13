@@ -448,25 +448,25 @@ ul li {
 			.tovar .check {
 				display: block;
 				cursor: pointer;
-				text-align: left;
+				text-align: center;
 				font-size: 12px;
-				padding-left: 40px;
+				font-family: 'helveticamedium';
 				margin-bottom: 12px;
-				background: url('../images/check.gif') no-repeat 22px 1px;
+				background: url('../images/check.gif') no-repeat 38px 1px;
 			}
 			.tovar>input[type=checkbox] {
 				position: absolute;
 				display: none;
 			}
 				.tovar>input[type=checkbox]:checked + label {
-					background: url("../images/checked2.gif") no-repeat 22px 1px;
+					background: url("../images/checked2.gif") no-repeat 38px 1px;
 				}
 				.tovar .check.no {
 					background: transparent;
 					font-size: 14px;
 				}
 				.tovar .check.yes {
-					background: url('../images/ok.png') no-repeat 22px 0;
+					background: url('../images/ok.png') no-repeat 32px 0;
 				}
 			.tovar .guarantee {
 				display: block;
@@ -484,8 +484,19 @@ ul li {
 /*------------------------------*/
 .bottom-menu {
 	height: 50px;
-	background-color: #4B4B4B;
+	background-color: #C4C4C4;
 }
+	/*
+	ЭТО ВСЕ НЕ ИСПОЛЬЗУЕТСЯ
+	заказчик 4 дня вносил правки
+	верстка от макета стала отличаться кардинально
+	извините за мусор в коде - 
+	устал его вычищать
+	
+	.bottom-menu>.header-nav>ul {
+		border-bottom: none;
+	}
+	
 	.bottom-nav ul {
 		padding: 6px 0;
 	}
@@ -499,7 +510,7 @@ ul li {
 		display: inline-block;
 		padding: 10px 20px;
 		color: #FFFFFF;
-	}
+	}*/
 /*------------------------------*/
 /*          SOCIALS
 /*------------------------------*/
@@ -523,8 +534,8 @@ ul li {
 		margin-left: 16px;
 		margin-right: 16px;
 	}
-		.gp {
-			background: url('../images/gp.png') no-repeat 0 0;
+		.odn {
+			background: url('../images/odn.png') no-repeat 0 0;
 		}
 		.vk {
 			background: url('../images/vk.png') no-repeat 0 0;
@@ -532,12 +543,15 @@ ul li {
 		.fb {
 			background: url('../images/fb.png') no-repeat 0 0;
 		}
+		.inst {
+			background: url('../images/inst.png') no-repeat 0 0;
+		}
 /*------------------------------*/
 /*          FOOTER
 /*------------------------------*/
 .footer {
 	height: 70px;
-	background-color: #1C1C1C;
+	background-color: #C4C4C4;
 	padding-top: 30px;
 }
 	.adress {
@@ -919,10 +933,10 @@ h2.align-left {
 	.basket-left>label {
 		margin-bottom: 10px;
 		color: #7E7E7E;
-		font-size: 14px;
+		font-size: 16px;
 		cursor: pointer;
 		padding-left: 15px; /*test*/
-		background: url('../images/check.gif') no-repeat 0 1px; /*test*/
+		background: url('../images/check.gif') no-repeat 0 5px; /*test*/
 	}
 	.basket-left>input[type=radio] {
 		float: left;
@@ -931,7 +945,7 @@ h2.align-left {
 		display: none; /*test*/
 	}
 		.basket-left>input[type=radio]:checked + label {
-			background: url('../images/checked.gif') no-repeat 0 1px; /*test*/
+			background: url('../images/checked.gif') no-repeat 0 5px; /*test*/
 		}
 .zaglushka {
 	height: 70px;
@@ -943,13 +957,15 @@ h2.align-left {
 		margin-bottom: 10px;
 		color: #7E7E7E;
 		padding-left: 20px;
-		font-size: 12px;
+		font-size: 14px;
 		background: url('../images/check.gif') no-repeat 0 0;
 	}
 	.person {
-		margin-bottom: 10px;
-		color: #B6B6B6;
+		margin-bottom: 12px;
+		padding-top: 5px;
+		font-family: "helveticalight";
 		font-size: 12px;
+		color: #828282;
 	}
 	.sposob {
 		font-family: 'helveticamedium';
@@ -978,7 +994,7 @@ h2.align-left {
 		line-height: 40px;
 		text-align: center;
 	}
-		.basket-left>.hidden {
+		.basket-left>.hidden, .zakaz-bottom>dl>.hidden2 {
 			display: none;
 		}
 .basket-map {

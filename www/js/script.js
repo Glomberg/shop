@@ -37,10 +37,14 @@
 		$("#yuridicheskoe").removeClass("active");
 		$("#chastnoe").addClass("active");
 		$(".hidden").css("display","none");
+		$(".hidden2").css("display","none");
+		$(".hidden3").css("display","block");
 	});
 	$(".yuridicheskoe").click(function(){
 		$("#chastnoe").removeClass("active");
 		$("#yuridicheskoe").addClass("active");
 		$(".hidden").css("display","block");
+		$(".hidden2").css("display","inline-block");
+		$(".hidden3").css("display","none");
 	});
 });
